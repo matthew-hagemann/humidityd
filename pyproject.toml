@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "adafruit-circuitpython-dht>=4.0.10",
+    "rpi-lgpio>=0.6",
 ]
 
 [tool.uv.workspace]
