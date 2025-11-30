@@ -1,0 +1,19 @@
+[Unit]
+Description=Humidity and Temperature Monitor Daemon
+After=network-online.target postgresql.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=matt
+Group=matt
+WorkingDirectory=/home/matt/humidityd
+EnvironmentFile=/home/matt/humidityd/.env
+ExecStart=/usr/bin/uv run main.py
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
