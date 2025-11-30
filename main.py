@@ -3,9 +3,10 @@ import board
 import time
 import adafruit_dht
 
+
 def main():
     # DHT22 on GPIO4, specific to how my pi5 is wired
-    dht_device = adafruit_dht.DHT22(board.D4, use_pulseio=False)  # type: ignore[reportArgumentType]
+    dht_device = adafruit_dht.DHT22(board.D4)  # type: ignore[reportArgumentType]
     while True:
         try:
             temperature = dht_device.temperature
@@ -21,3 +22,7 @@ def main():
             dht_device.exit()
             raise error
         time.sleep(2.0)
+
+
+if __name__ == "__main__":
+    main()
