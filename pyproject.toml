@@ -6,6 +6,9 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "adafruit-circuitpython-dht>=4.0.10",
+    "psycopg>=3.2.13",
+    "psycopg-pool>=3.2.8",
+    "python-dotenv>=1.2.1",
     "rpi-lgpio>=0.6",
 ]
 
