@@ -100,7 +100,7 @@ def main():
             except Exception as error:
                 dht_device.exit()
                 raise error
-            time.sleep(2.0)
+            time.sleep(300.0)
     finally:
         ctx.close_pool()
 
