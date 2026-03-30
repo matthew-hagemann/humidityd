@@ -46,14 +46,14 @@ wheels = [
 
 [[package]]
 name = "adafruit-circuitpython-dht"
-version = "4.0.10"
+version = "4.0.11"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "adafruit-blinka" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/3e/14/ebd4f7bb6cd2a1fe7f06fb10612fdc176f8edf0b63e64fed7bfd6781465f/adafruit_circuitpython_dht-4.0.10.tar.gz", hash = "sha256:a8596fdec62668926c3aadf8cb5886840d2f83a53d444daea47155eacde7117e", size = 27380, upload-time = "2025-10-20T16:39:28.049Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ea/2c/bd589089da9958728c8b67b1174c634b5bffa4d3b455e38cbbedcf728977/adafruit_circuitpython_dht-4.0.11.tar.gz", hash = "sha256:e0a4321d36ff9f5bebd7845e3de1e2badd50eae943f2d78d42224e403144b670", size = 27349, upload-time = "2026-03-27T18:57:48.307Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/29/f4/16f43b6214d24ef7504f938dcfbec38f6923dc356854b48f537128e6f7ab/adafruit_circuitpython_dht-4.0.10-py3-none-any.whl", hash = "sha256:18a0f23d74407a4de278c9144c96b29646e64a31c82d8b481a49ec8e8a0a1849", size = 7902, upload-time = "2025-10-20T16:39:26.687Z" },
+    { url = "https://files.pythonhosted.org/packages/e8/a5/1217b206e76ac358dcf0c1672fd2827d04bde388d845e8eb0bb2c23e0429/adafruit_circuitpython_dht-4.0.11-py3-none-any.whl", hash = "sha256:6242ca5e024e9b21734c8ed656635612f010187a7e531a88f7d60e53c798ec3e", size = 7888, upload-time = "2026-03-27T18:57:46.519Z" },
 ]
 
 [[package]]
