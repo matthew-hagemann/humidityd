@@ -46,14 +46,14 @@ wheels = [
 
 [[package]]
 name = "adafruit-circuitpython-dht"
-version = "4.0.10"
+version = "4.0.12"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "adafruit-blinka" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/3e/14/ebd4f7bb6cd2a1fe7f06fb10612fdc176f8edf0b63e64fed7bfd6781465f/adafruit_circuitpython_dht-4.0.10.tar.gz", hash = "sha256:a8596fdec62668926c3aadf8cb5886840d2f83a53d444daea47155eacde7117e", size = 27380, upload-time = "2025-10-20T16:39:28.049Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/05/35/6d6b3ceb3befe2832d9610b17ace2702fb0b6481ec498855117f44bde1d3/adafruit_circuitpython_dht-4.0.12.tar.gz", hash = "sha256:a20575d8e9d191e26802f0d432cf2bdee1b646d4d16650cb63e848c590a9cced", size = 27364, upload-time = "2026-04-23T20:56:00.703Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/29/f4/16f43b6214d24ef7504f938dcfbec38f6923dc356854b48f537128e6f7ab/adafruit_circuitpython_dht-4.0.10-py3-none-any.whl", hash = "sha256:18a0f23d74407a4de278c9144c96b29646e64a31c82d8b481a49ec8e8a0a1849", size = 7902, upload-time = "2025-10-20T16:39:26.687Z" },
+    { url = "https://files.pythonhosted.org/packages/72/6e/096f1ff1c1ff18492f71c0009fc91cc932cf048782723edb5d1b4856b4e1/adafruit_circuitpython_dht-4.0.12-py3-none-any.whl", hash = "sha256:8ade2a0f037ee703f2ddba51d3cfbe564d97c5e8905c3ab95eda4a6b0a8b6ff0", size = 7885, upload-time = "2026-04-23T20:55:59.429Z" },
 ]
 
 [[package]]
@@ -128,7 +128,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "adafruit-circuitpython-dht", specifier = ">=4.0.10" },
+    { name = "adafruit-circuitpython-dht", specifier = ">=4.0.12" },
     { name = "psycopg", specifier = ">=3.2.13" },
     { name = "psycopg-pool", specifier = ">=3.2.8" },
     { name = "python-dotenv", specifier = ">=1.2.1" },
